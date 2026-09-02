@@ -26,8 +26,6 @@ The plugin, MCP server, and executable are all named `sketchtools-mcp`.
 
 `SOURCE.json` identifies the source tag and commit. `SHA256SUMS` covers every file in the generated plugin trees.
 
-Do not edit generated files here. Make changes in the [source repository](https://github.com/mdlockyer/sketchtools-mcp) and publish a new version tag.
-
 ## License
 
 MIT

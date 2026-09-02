@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "sketchtools-mcp": {
+      "command": "${__dirname}/bin/sketchtools-mcp"
+    }
+  }
+}

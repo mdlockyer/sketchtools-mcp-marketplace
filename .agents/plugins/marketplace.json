@@ -1,0 +1,20 @@
+{
+  "name": "sketchtools-mcp",
+  "interface": {
+    "displayName": "sketchtools-mcp"
+  },
+  "plugins": [
+    {
+      "name": "sketchtools-mcp",
+      "source": {
+        "source": "local",
+        "path": "./Build/Codex/sketchtools-mcp"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    }
+  ]
+}

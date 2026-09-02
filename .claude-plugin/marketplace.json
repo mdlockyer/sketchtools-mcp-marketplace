@@ -1,0 +1,28 @@
+{
+  "name": "sketchtools-mcp",
+  "description": "Sketch automation for Claude through a direct, library-first MCP bridge.",
+  "owner": {
+    "name": "Michael Lockyer"
+  },
+  "plugins": [
+    {
+      "name": "sketchtools-mcp",
+      "description": "Search, preview, place, configure, and visually verify Sketch components through a model-friendly MCP bridge.",
+      "version": "1.2.0",
+      "source": "./Build/Claude/sketchtools-mcp",
+      "author": {
+        "name": "Michael Lockyer"
+      },
+      "category": "design",
+      "tags": [
+        "sketch",
+        "sketchtool",
+        "design",
+        "libraries",
+        "components",
+        "mcp"
+      ],
+      "strict": true
+    }
+  ]
+}

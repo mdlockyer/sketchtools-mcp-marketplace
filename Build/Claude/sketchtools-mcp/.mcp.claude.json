@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "sketchtools-mcp": {
+      "command": "${CLAUDE_PLUGIN_ROOT}/bin/sketchtools-mcp"
+    }
+  }
+}

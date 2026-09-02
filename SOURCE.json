@@ -1,0 +1,7 @@
+{
+  "generatedBy" : ".github\/workflows\/release.yml",
+  "sourceRepository" : "mdlockyer\/sketchtools-mcp",
+  "sourceRevision" : "91b9e7bae25fcbe020fe4dadda47b125463f80e1",
+  "sourceTag" : "v1.2.0",
+  "version" : "1.2.0"
+}

@@ -1,0 +1,44 @@
+{
+  "name": "sketchtools-mcp",
+  "version": "1.2.0",
+  "description": "A model-friendly MCP bridge for Sketch with a clear, library-first workflow for finding, previewing, placing, configuring, and visually verifying components.",
+  "author": {
+    "name": "Michael Lockyer",
+    "url": "https://github.com/mdlockyer"
+  },
+  "homepage": "https://github.com/mdlockyer/sketchtools-mcp",
+  "repository": "https://github.com/mdlockyer/sketchtools-mcp",
+  "license": "MIT",
+  "keywords": [
+    "sketch",
+    "sketchtool",
+    "design",
+    "libraries",
+    "components",
+    "mcp",
+    "codex"
+  ],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.codex.json",
+  "interface": {
+    "displayName": "sketchtools-mcp",
+    "shortDescription": "A direct, library-first MCP bridge for Sketch",
+    "longDescription": "Use sketchtools-mcp to inspect and edit open Sketch documents, search linked libraries, preview components before importing them, place exact symbols, edit typed overrides, apply shared styles and swatches, export assets, and verify the result visually.",
+    "developerName": "Michael Lockyer",
+    "category": "Developer Tools",
+    "capabilities": [
+      "Interactive",
+      "Read",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "Use sketchtools-mcp to find and preview the right component in my open Sketch libraries.",
+      "Use sketchtools-mcp to inspect the selected Sketch frame and implement it in this codebase."
+    ],
+    "websiteURL": "https://github.com/mdlockyer/sketchtools-mcp",
+    "brandColor": "#F7B500",
+    "composerIcon": "./assets/sketch-small.svg",
+    "logo": "./assets/sketch.png",
+    "screenshots": []
+  }
+}

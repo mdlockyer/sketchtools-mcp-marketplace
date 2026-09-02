@@ -1,0 +1,14 @@
+#!/bin/sh
+set -eu
+
+ARCH=$(uname -m)
+case "$ARCH" in
+  arm64|x86_64) ;;
+  *)
+    echo "error: sketchtools-mcp does not include a binary for $ARCH" >&2
+    exit 70
+    ;;
+esac
+
+HERE=$(CDPATH= cd -- "$(dirname -- "$0")" && pwd)
+exec "$HERE/sketchtools-mcp-darwin-$ARCH" "$@"

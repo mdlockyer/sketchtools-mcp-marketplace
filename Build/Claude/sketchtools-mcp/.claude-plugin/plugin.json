@@ -1,0 +1,22 @@
+{
+  "name": "sketchtools-mcp",
+  "displayName": "sketchtools-mcp",
+  "version": "1.2.0",
+  "description": "A model-friendly MCP bridge for Sketch with a clear, library-first workflow for finding, previewing, placing, configuring, and visually verifying components.",
+  "author": {
+    "name": "Michael Lockyer"
+  },
+  "homepage": "https://github.com/mdlockyer/sketchtools-mcp",
+  "repository": "https://github.com/mdlockyer/sketchtools-mcp",
+  "license": "MIT",
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.claude.json",
+  "keywords": [
+    "sketch",
+    "sketchtool",
+    "design",
+    "libraries",
+    "components",
+    "mcp"
+  ]
+}
